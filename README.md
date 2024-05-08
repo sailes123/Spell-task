@@ -11,5 +11,11 @@ First, ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ### Installation
 
-Clone this repository and install the dependencies:
+Clone this repository:
+ git clone https://github.com/sailes123/Spell-task.git
 
+Install dependencies:
+yarn 
+
+Run the code:
+yarn dev
