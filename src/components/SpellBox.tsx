@@ -65,7 +65,7 @@ const SpellBox = ({ item }: Props) => {
 
   return (
     <div
-      className=" w-[350px] h-[200px] shadow-xl items-center justify-between flex flex-col p-4 bg-[#eeebeb] rounded-lg"
+      className=" sm:w-[350px] w-full h-[200px]  shadow-xl items-center justify-between flex flex-col p-4 bg-[#eeebeb] rounded-lg"
       key={item?.index}
     >
       <div className="w-full flex justify-between">
