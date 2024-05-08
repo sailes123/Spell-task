@@ -27,7 +27,9 @@ const SpellBox = ({ item }: Props) => {
 
   const addToFavourite = () => {
     // Get existing favorite spells from localStorage
-    const existingSpells = JSON.parse(favoriteList);
+    const list = localStorage.getItem("favourite") || "[]";
+    const existingSpells = JSON.parse(list);
+    
 
     //Push the new data in the array
     existingSpells.push(item);
